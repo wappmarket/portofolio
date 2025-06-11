@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(to right, #0f2027, #203a43, #2c5364); color: #fff; padding: 40px; }
+    header { text-align: center; margin-bottom: 50px; }
+    header h1 { font-size: 36px; margin-bottom: 10px; }
+    header p { font-size: 18px; color: #ccc; }
+    .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-bottom: 10px; color: #38bdf8; }
+    .card p { font-size: 14px; color: #ddd; }
+    footer { margin-top: 60px; text-align: center; font-size: 14px; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portofolio Saya</h1>
+    <p>BackEnd & FrontEnd Developer • UI Designer • Web Automation</p>
+  </header>
+  <section class="container">
+    <div class="card"><h3>Website Toko Online</h3><p>Membuat platform toko online lengkap dengan dashboard admin, sistem checkout, dan integrasi payment gateway.</p></div>
+    <div class="card"><h3>Bot WhatsApp</h3><p>Merancang dan deploy bot WhatsApp menggunakan Baileys MD dengan fitur interaktif dan panel sewa otomatis.</p></div>
+    <div class="card"><h3>Sistem Panel SMM</h3><p>Website panel layanan sosial media dengan integrasi API dan sistem deposit otomatis melalui pembayaran digital.</p></div>
+  </section>
+  <footer>&copy; 2025 Dibuat oleh wappmarket • All rights reserved.</footer>
+</body>
+</html>
